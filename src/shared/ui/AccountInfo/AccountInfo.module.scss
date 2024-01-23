@@ -1,0 +1,28 @@
+.card {
+	display: flex;
+	align-items: center;
+	padding: 9px 14px;
+	border-radius: 6px;
+	border: 1px #222b44 solid;
+  cursor: pointer;
+}
+.avatar {
+	margin-right: 12px;
+}
+.info {
+	span {
+		font-size: 12px;
+		font-weight: var(--font-weight-thin);
+		color: var(--font-color-label);
+	}
+	p {
+		font-size: 14px;
+		font-weight: var(--font-weight-light);
+	}
+}
+
+@media (max-width: 375px) {
+	.card {
+		display: none;
+	}
+}

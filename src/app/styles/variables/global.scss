@@ -1,0 +1,29 @@
+:root {
+	--bg-default: #0e0c15;
+	--bg-color: #121825;
+	--primary-color: #1c64f2;
+	--page-padding: 34px 25px;
+	--page-padding-tab: 34px 40px;
+	--page-padding-mob: 24px 0 0 0;
+
+	--font-family-main: 'IBM Plex Sans';
+	--font-color: #ffffff;
+	--font-color-disc: #9ca3af;
+	--font-color-label: #616D8D;
+	--font-weight-bold: 600;
+	--font-weight-light: 500;
+	--font-weight-thin: 400;
+
+	//NAVBAR
+	--navbar-height: 82px;
+	--navbar-height-tab: 79px;
+	--navbar-height-mob: 49px;
+
+	--navbar-br: 17px;
+	--navbar-br-mob: 10px;
+
+	.d-flex {
+		display: flex;
+		align-items: center;
+	}
+}

@@ -1,0 +1,32 @@
+@import './reset.scss';
+@import './variables/global.scss';
+.app {
+	font-family: 'IBM Plex Sans';
+	background-color: var(--bg-default);
+	min-height: 100vh;
+	padding: var(--page-padding);
+}
+@media (max-width: 834px) {
+	.app {
+		padding: var(--page-padding-tab);
+	}
+}
+
+@media (max-width: 375px) {
+	.app {
+		padding: var(--page-padding-mob);
+	}
+}
+
+.MuiPagination-text .MuiPaginationItem-root {
+	color: #9ca3af;
+}
+
+.MuiDrawer-root .MuiDrawer-paper {
+	background-color: var(--bg-color);
+}
+@media (max-width: 375) {
+	.MuiDrawer-root .MuiDrawer-paper {
+		width: 375px;
+	}
+}

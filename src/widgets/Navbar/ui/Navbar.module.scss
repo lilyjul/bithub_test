@@ -1,0 +1,62 @@
+@import '@/app/styles/variables/global.scss';
+
+.navbar {
+	color: var(--font-color);
+	height: var(--navbar-height);
+	background: var(--bg-color);
+	border-radius: var(--navbar-br);
+	margin-bottom: 34px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+}
+
+.leftSide {
+	@extend .d-flex;
+}
+
+.logo {
+	font-size: 22px;
+	font-weight: var(--font-weight-bold);
+	margin-right: 44px;
+	cursor: pointer;
+}
+
+.organization {
+	@extend .d-flex;
+	font-size: 16px;
+	font-weight: var(--font-weight-light);
+	cursor: pointer;
+	p {
+		margin-left: 10px;
+	}
+}
+
+.name {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 834px) {
+	.navbar {
+		margin-bottom: 32px;
+		height: var(--navbar-height-tab);
+	}
+}
+
+@media (max-width: 375px) {
+	.navbar {
+		padding: 0 16px;
+		margin: 0 16px 27px 16px;
+		border-radius: 10px;
+		height: var(--navbar-height-mob);
+	}
+	.leftSide {
+		width: 100%;
+		justify-content: space-between;
+	}
+	.organization {
+		font-size: 14px;
+	}
+}

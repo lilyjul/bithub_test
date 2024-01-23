@@ -1,0 +1,14 @@
+.MuiInputBase-root {
+	border-radius: 8px !important;
+	border: #313e62 1px solid;
+	height: 46px;
+	color: var(--font-color-label) !important;
+}
+.MuiFormLabel-root {
+	font-size: 14px;
+	font-weight: var(--font-weight-thin);
+	color: var(--font-color-label) !important;
+}
+.searchIcon {
+	fill: var(--font-color-label) !important;
+}

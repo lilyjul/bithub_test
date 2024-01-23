@@ -1,0 +1,32 @@
+.drawer {
+	font-family: 'IBM Plex Sans';
+	color: var(--font-color);
+	width: 470px;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	padding: 56px 25px 56px 20px;
+	p {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.divider {
+	height: 20px;
+	border-top: 1px solid #222b44;
+}
+
+.closeBtn {
+	align-self: flex-end;
+}
+@media (max-width: 375px) {
+	.drawer{
+		max-width: 375px;
+		padding: 30px 16px;
+	}
+	
+}

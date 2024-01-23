@@ -1,0 +1,27 @@
+.MuiTableRow-head {
+	background-color: #0e0c15;
+	.MuiTableCell-root {
+		font-family: var(--font-family-main);
+		font-size: 14px;
+		font-weight: var(--font-weight-light);
+		color: var(--font-color-disc);
+	}
+}
+.MuiTableRow-root {
+	.MuiTableCell-root {
+		font-family: var(--font-family-main);
+		font-size: 14px;
+		font-weight: var(--font-weight-light);
+		color: var(--font-color-disc);
+	}
+}
+.user-table-action-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	svg {
+		width: 18px;
+		height: 18px;
+	}
+}
